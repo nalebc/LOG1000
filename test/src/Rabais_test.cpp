@@ -118,7 +118,8 @@ void RabaisTest::test_branch4_1() {
 void RabaisTest::test_branch4_2() {
 	
 	Facture une_facture;
-	une_facture.ajouterItem(740);
+	une_facture.ajouterItem(40);
+    une_facture.ajouterItem(700);
     
     tm date;
     date.tm_year = 1989;
@@ -135,7 +136,8 @@ void RabaisTest::test_branch4_2() {
 void RabaisTest::test_branch5_1() {
 	
 	Facture une_facture;
-	une_facture.ajouterItem(400);
+	une_facture.ajouterItem(220);
+    une_facture.ajouterItem(180);
     
     tm date;
     date.tm_year = 2019;
